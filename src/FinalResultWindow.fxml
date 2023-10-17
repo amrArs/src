@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="470.0" prefWidth="650.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinalResultController">
+   <children>
+      <Text fill="WHITE" layoutX="191.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have Finished Your Quiz" textAlignment="CENTER" wrappingWidth="267.80780029296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>    
+      <Text fill="WHITE" layoutX="247.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Result : ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="FinalResult" layoutX="384.0" layoutY="225.0" prefHeight="20.0" prefWidth="17.0" style="-fx-font-size: 14; -fx-text-fill: white;" />
+   </children>
+</AnchorPane>
